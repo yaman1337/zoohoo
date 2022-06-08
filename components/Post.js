@@ -46,12 +46,21 @@ const Post = () => {
           <div className={styles.likeButton}>
             <AiOutlineHeart />
           </div>
-          <div className={styles.likesCount}>
-            . 1000 likes
-          </div>
+          <div className={styles.likesCount}>. 1000 likes</div>
         </div>
-        <div className={styles.postCaption}>Lorem ipsum dolor sit amet.</div>
+        <div className={styles.postCaption}>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit.{" "}
+        </div>
         <div className={styles.postComments}>View comments...</div>
+        <div className={styles.commentBox}>
+          <input
+            type="text"
+            className={styles.commentInput}
+            placeholder="Add your comment..."
+          />
+          <input type="button" value="Post" className={styles.commentBtn} />
+        </div>
       </div>
     </div>
   );

@@ -1,54 +1,73 @@
 .post {
-    height: 600px;
-    width: 500px;
-    border: 1px solid lightgray;
-    position: relative;
-    margin-bottom: 20px;
+  min-height: 620px;
+  width: 500px;
+  border: 1px solid lightgray;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: scroll;
 }
 
 .header {
-    width: 100%;
-    height: 20px;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
+  width: 100%;
+  height: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
 }
 
 .profilePic {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
 }
 
 .username {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-left: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 .postFooter {
-    height: 137px;
-    width: 100%;
-    padding: 10px;
+  height: 137px;
+  width: 100%;
+  padding: 10px;
 }
 
 .likesContainer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .likeButton {
-    font-size: 2rem;
-    cursor: pointer;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .likesCount {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .postComments {
-    color: gray;
-    cursor: pointer;
+  color: gray;
+  cursor: pointer;
+}
+
+.commentBox {
+  width: 100%;
+  height: 30px;
+  border-top: 1px solid lightgray;
+}
+
+.commentInput {
+  width: 80%;
+  height: 30px;
+  outline: none;
+}
+
+.commentBtn {
+  width: 20%;
+  height: 30px;
+  outline: none;
 }
