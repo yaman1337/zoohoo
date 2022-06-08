@@ -2,8 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/components/Post.module.css";
 import { AiOutlineHeart } from "react-icons/ai";
+import { BsHeartFill } from "react-icons/bs";
+import { useState } from "react"; 
 
 const Post = () => {
+
+  const [liked, setIsliked] = useState(false);
+
+  const likedHandler = () => {
+    setIsliked(true)
+  }
+
+  const dislikeHandler = () => {
+    setIsliked(false)
+  }
+
   return (
     <div className={styles.post}>
       <div className={styles.header}>
@@ -44,7 +57,11 @@ const Post = () => {
       <div className={styles.postFooter}>
         <div className={styles.likesContainer}>
           <div className={styles.likeButton}>
-            <AiOutlineHeart />
+          {
+            liked ? <BsHeartFill onClick={dislikeHandler} /> : <AiOutlineHeart onClick={likedHandler} />
+          }
+           
+           
           </div>
           <div className={styles.likesCount}>. 1000 likes</div>
         </div>
