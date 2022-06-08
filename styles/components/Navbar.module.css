@@ -1,0 +1,28 @@
+.nav {
+    height: 30px;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(41, 187, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+.links  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLink { 
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+}

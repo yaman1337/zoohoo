@@ -1,0 +1,19 @@
+.feed {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+    min-height: 100vh;
+    width: 700px;
+    padding-top: 80px;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

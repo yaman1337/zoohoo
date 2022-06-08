@@ -1,0 +1,28 @@
+.post {
+    height: 600px;
+    width: 500px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.profilePic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.username {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
