@@ -1,0 +1,62 @@
+@value primary-color: rgb(41, 187, 255);
+
+.register {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    min-height: 700px;
+    width: 500px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: primary-color;
+}
+
+.inputs {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.inputs input {
+    width: 90%;
+    margin-bottom: 10px;
+    height: 50px;
+    outline: none;
+}
+
+.registerBtn {
+    height: 50px;
+    width: 70%;
+    cursor: pointer;
+    background-color: primary-color;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.registerBtn:hover {
+    filter: brightness(80%);
+}
+
+.line {
+    margin-top: 20px;
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+}
