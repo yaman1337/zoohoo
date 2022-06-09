@@ -20,6 +20,9 @@ export default function Navbar() {
         <Link href="/profile">
           <a className={styles.navLink}>Profile</a>
         </Link>
+        <Link href="/logout">
+          <a className={styles.navLink}>Logout</a>
+        </Link>
       </div>
     </div>
   );

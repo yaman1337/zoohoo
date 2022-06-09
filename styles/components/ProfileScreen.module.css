@@ -47,14 +47,16 @@
     cursor: pointer;
 }
 
+.actionButtons button:hover {
+    filter: brightness(80%);
+}
+
 .deleteAccountBtn {
     background: rgb(255, 44, 44);
     color: white;
 }
 
-.deleteAccountBtn:hover {
-    filter: brightness(80%);
-}
+
 .actionButtons p {
     font-size: 1.2rem;
     font-weight: 700;
