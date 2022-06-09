@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
-import ProfileCard from "@/components/ProfileCard"
-
+import ProfileScreen from "@/components/ProfileScreen"
 
 const profile = () => {
   return (
@@ -12,7 +11,7 @@ const profile = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <ProfileCard />
+      <ProfileScreen />
     </div>
   )
 }
