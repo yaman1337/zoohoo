@@ -33,6 +33,7 @@ const ProfileCard = () => {
           </div>
           <button>Change Username</button>
           <button>Change Email</button>
+          <button>Change Password</button>
           <button className={styles.deleteAccountBtn}>Delete Account</button>
 
         </div>

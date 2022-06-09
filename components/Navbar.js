@@ -2,6 +2,11 @@ import styles from "@/styles/components/Navbar.module.css";
 import Link from "next/link";
 
 export default function Navbar() {
+
+  const handleLogout = () => {
+    window.location.assign("/login")
+  }
+
   return (
     <div className={styles.nav}>
       <div className={styles.logo}>
@@ -20,8 +25,8 @@ export default function Navbar() {
         <Link href="/profile">
           <a className={styles.navLink}>Profile</a>
         </Link>
-        <Link href="/logout">
-          <a className={styles.navLink}>Logout</a>
+        <Link href="#">
+          <a className={styles.navLink} onClick={handleLogout}>Logout</a>
         </Link>
       </div>
     </div>
