@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
-import ProfileScreen from "@/components/ProfileScreen"
+import ProfileScreen from "@/components/ProfileScreen";
 
 const profile = () => {
   return (

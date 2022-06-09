@@ -5,6 +5,9 @@ const Feed = () => {
     <div className={styles.feed}>
       <div className={styles.posts}>
         <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
     </div>
   );

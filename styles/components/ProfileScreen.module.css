@@ -2,4 +2,77 @@
     margin-top: 63px;
     min-height: calc(100vh - 63px);
     width: 100%;
+    display: flex;
+    padding: 70px;
+}
+
+.userDetails {
+    height: 750px;
+    width: 400px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.userIntroduction {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+}
+
+.actionButtons {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+    width: 80%;
+}
+
+.actionButtons button {
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.deleteAccountBtn {
+    background: rgb(255, 44, 44);
+    color: white;
+}
+
+.deleteAccountBtn:hover {
+    filter: brightness(80%);
+}
+.actionButtons p {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.userIntroduction b {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.userPosts {
+    height: 750px;
+    width: calc(100% - 400px);
+    border: 1px solid lightgray;
+    margin-left: 100px;
+    overflow: scroll;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
