@@ -1,4 +1,4 @@
-import styles from "../styles/components/Feed.module.css";
+import styles from "@/styles/components/Feed.module.css";
 import Post from "./Post";
 const Feed = () => {
   return (

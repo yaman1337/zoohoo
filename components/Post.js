@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/components/Post.module.css";
+import styles from "@/styles/components/Post.module.css";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsHeartFill } from "react-icons/bs";
 import { useState } from "react"; 

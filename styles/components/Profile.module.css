@@ -1,0 +1,5 @@
+.profile {
+    margin-top: 63px;
+    min-height: calc(100vh - 63px);
+    width: 100%;
+}
