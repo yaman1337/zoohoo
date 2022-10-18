@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import ChatScreen from "@/components/ChatScreen";
 
-const chat = () => {
+module.exports = () => {
   return (
     <>
     <Head>
@@ -15,5 +15,3 @@ const chat = () => {
     </>
   )
 }
-
-export default chat
