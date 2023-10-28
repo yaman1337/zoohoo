@@ -5,3 +5,4 @@ module.exports = {
     domains: ["https://wallpapercave.com/wp/wp2566224.jpg"]
   }
 }
+// style
